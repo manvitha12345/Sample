@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container form {
+  width: 100%; /* Adjust the width of the form */
+  max-width: 400px; /* Set a maximum width for larger screens */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.container form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.container form .field {
+  margin-bottom: 20px;
+}
+
+.container form input[type="text"],
+.container form input[type="password"],
+.container form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container form p {
+  margin-top: 5px;
+  color: red;
+  font-size: 14px;
+}
+
+.container form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.container form button:hover {
+  background-color: darkblue;
+}
